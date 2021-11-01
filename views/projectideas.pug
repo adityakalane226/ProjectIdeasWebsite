@@ -1,0 +1,25 @@
+//- index.pug
+doctype html
+html
+    title ProjectIdeas Website
+    style 
+       include ../static/projectideas.css
+    body
+        section#navbar 
+            nav 
+                ul 
+                    li #[a(href="/") Home]
+                    li #[a(href="/about") About Us]
+                    li #[a(href="/contact") Contact]
+                    li #[a(href="/") Services]
+        section 
+            div#home
+                div#heading
+                    h1 Welcome to ProjectIdeas Website.
+            div#btn 
+                button#btn1 Get Started
+                button#btn2 Log In
+
+    
+    script  
+    include ../static/projectideas.js

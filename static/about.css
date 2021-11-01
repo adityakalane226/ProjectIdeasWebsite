@@ -1,0 +1,28 @@
+/* About */
+body{
+    background-color: #e9e9e980;
+}
+#About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+#About h1{
+    font-size: 2.4rem;
+    margin: 10px 0px;
+}
+#About p{
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 10px 0px;
+}
+#footer p{
+    text-align: center;
+    margin: 10px 0px;
+}
+#footer{
+    position: relative;
+    top: 45vh;
+}
